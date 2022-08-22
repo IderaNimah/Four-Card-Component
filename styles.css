@@ -86,16 +86,15 @@
   margin-top: 160px;
   border-top: hsl(212, 86%, 64%) solid 4px;
 }
-main{
-    display: flex;
-    justify-content: center;
-    gap: 25px;
+main {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
 }
-.Joint-card{
+.Joint-card {
   display: flex;
   flex-direction: column;
   margin-top: 30px;
-   
 }
 h3 {
   font-family: "Poppins", sans-serif;
@@ -120,14 +119,14 @@ h3 {
 
 /* Desktop */
 
-@media(max-width:1440px){
+@media (max-width: 1440px) {
   .header-div {
     width: 40%;
     margin-top: 30px;
     font-family: "Poppins", sans-serif;
     font-size: 20px;
   }
-  .pone  {
+  .pone {
     color: hsl(229, 6%, 66%);
     text-align: center;
     margin: 0 auto;
@@ -135,21 +134,100 @@ h3 {
     font-size: 15px;
     margin-top: 15px;
   }
-
 }
 
 /* Mobile */
-@media only screen and (max-width:376px) {
+@media screen and (max-width: 394px) {
   .header-div {
-    width: 100% ;
-    margin: 0 auto;
-    margin-right: 400px;
+    width: 100%;
+    margin-top: 20px;
+    font-family: "Poppins", sans-serif;
+    font-size: 13px;
+  }
+  .head {
+    width: 100%;
+  }
+  .pone {
+    margin-left: 40px;
+  }
+  main {
+    display: block;
+  }
+  .Card-green {
+    background-color: white;
+    height: 220px;
+    box-sizing: border-box;
+    border-radius: 6px;
+    box-shadow: 0 4px 8px 0 rgba(203, 209, 234, 0.913),
+      0 6px 20px 0 rgb(239, 239, 242);
+    width: 290px;
+    padding-left: 15px;
+    padding-top: 5px;
+    position: relative;
+    margin-top: 25px;
+    border-top: hsl(180, 62%, 55%) solid 4px;
+    margin-left: 50px;
+  }
+  .Card-red {
+    background-color: white;
+    height: 220px;
+    box-sizing: border-box;
+    border-radius: 6px;
+    box-shadow: 0 4px 8px 0 rgba(203, 209, 234, 0.913),
+      0 6px 20px 0 rgb(239, 239, 242);
+    width: 290px;
+    padding-left: 15px;
+    padding-top: 5px;
+    position: relative;
+    border-top: hsl(0, 78%, 62%) solid 4px;
+    margin-left: 50px;
+  }
+  .Card-yellow {
+    background-color: white;
+    height: 220px;
+    box-sizing: border-box;
+    border-radius: 6px;
+    box-shadow: 0 4px 8px 0 rgba(203, 209, 234, 0.913),
+      0 6px 20px 0 rgb(239, 239, 242);
+    width: 290px;
+    padding-left: 15px;
+    padding-top: 5px;
+    position: relative;
+    margin-top: 30px;
+    margin-left: 50px;
+    border-top: hsl(34, 97%, 64%) solid 4px;
+  }
+  .Card-blue {
+    background-color: white;
+    height: 220px;
+    box-sizing: border-box;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px 0 rgba(203, 209, 234, 0.913),
+      0 6px 20px 0 rgb(239, 239, 242);
+    width: 290px;
+    padding-left: 15px;
+    padding-top: 5px;
+    position: relative;
+    margin-top: 10px;
+    margin-left: 50px;
+    border-top: hsl(212, 86%, 64%) solid 4px;
+    margin-bottom: 20px;
+  }
+}
+
+@media only screen and (max-width: 376px) {
+  .header-div {
+    width: 100%;
     margin-top: 20px;
     font-family: "Poppins", sans-serif;
     font-size: 11px;
-    
   }
-  .pone  {
+  .head {
+    margin: 0 auto;
+    width: 325px;
+    padding-right: 150px;
+  }
+  .pone {
     color: hsl(229, 6%, 66%);
     text-align: center;
     margin: 0 auto;
@@ -157,7 +235,7 @@ h3 {
     font-size: 12px;
     margin-top: 15px;
   }
-  main{
+  main {
     display: block;
   }
   .Card-green {
@@ -186,7 +264,6 @@ h3 {
     position: relative;
     border-top: hsl(0, 78%, 62%) solid 4px;
     margin-left: 50px;
-    /* margin-top: 30px; */
   }
   .Card-yellow {
     background-color: white;
@@ -212,7 +289,7 @@ h3 {
     width: 270px;
     padding: 3px;
     position: relative;
-    margin-top: 10px; 
+    margin-top: 10px;
     margin-left: 50px;
     border-top: hsl(212, 86%, 64%) solid 4px;
     margin-bottom: 30px;
